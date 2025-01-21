@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "juridia-finetuning-project"
+version = "0.1.0"
+description = "A project for fine-tuning a legal language model using legal datasets."
+authors = ["Hossam Elmrabti <elmrabtistyle777@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+numpy = "^1.21.0"
+torch = "^1.9.0"
+transformers = "^4.11.0"
+scikit-learn = "^0.24.2"
+datasets = "^1.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

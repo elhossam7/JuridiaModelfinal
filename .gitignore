@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# ML specific
+*.h5
+*.pkl
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.model
+models/
+datasets/
+data/
+wandb/
+runs/
+logs/
+
+# Large files and archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Local development settings
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Training artifacts
+tensorboard/
+checkpoints/
+saved_models/

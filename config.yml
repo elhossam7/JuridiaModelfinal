@@ -1,0 +1,13 @@
+# Configuration file for the training script
+
+# Path to the data files
+train_data_path: 'src/data/train.csv'
+test_data_path: 'src/data/test.csv'
+
+# Training parameters
+batch_size: 16
+learning_rate: 2e-5
+num_epochs: 3
+model_name: 'bert-base-uncased'  # Using a simpler model that's more likely to work offline
+max_length: 512
+output_dir: 'models'  # Simplified path
